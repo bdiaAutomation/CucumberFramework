@@ -1,0 +1,6 @@
+com/bdia/Objects/Product.class
+com/bdia/Stepdefs/AddToCartStepDef.class
+com/bdia/GlobalHooks/GlobalHooks.class
+com/bdia/Stepdefs/CouponsStepDef.class
+com/bdia/Runners/TestNGRunnerTest.class
+com/bdia/Objects/Customer.class

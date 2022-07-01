@@ -1,0 +1,11 @@
+com/bdia/Pages/OnboardingPickStorePage.class
+com/bdia/Utils/ServerManager.class
+com/bdia/Pages/OnboardingLoginPage.class
+com/bdia/Utils/PropertiesManager.class
+com/bdia/Utils/GlobalParamsManager.class
+com/bdia/Utils/Constants.class
+com/bdia/Pages/BasePage.class
+com/bdia/Pages/SelectCountryPage.class
+com/bdia/Utils/TestUtils.class
+com/bdia/Utils/DriverFactory.class
+com/bdia/Utils/CapabilitiesManager.class

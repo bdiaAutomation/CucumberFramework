@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.778" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bambadia/IdeaProjects/CucumberFramework/target/test-classes:/Users/bambadia/IdeaProjects/CucumberFramework/target/classes:/Users/bambadia/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/bambadia/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/bambadia/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-java/7.4.0/cucumber-java-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-core/7.4.0/cucumber-core-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-gherkin/7.4.0/cucumber-gherkin-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.4.0/cucumber-gherkin-messages-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/bambadia/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/bambadia/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/bambadia/.m2/repository/io/cucumber/datatable/7.4.0/datatable-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-plugin/7.4.0/cucumber-plugin-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/docstring/7.4.0/docstring-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/bambadia/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/bambadia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-testng/7.4.0/cucumber-testng-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-picocontainer/7.4.0/cucumber-picocontainer-7.4.0.jar:/Users/bambadia/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/bambadia/IdeaProjects/CucumberFramework/target/surefire/surefirebooter13023253781546868306.jar /Users/bambadia/IdeaProjects/CucumberFramework/target/surefire 2022-06-28T16-29-27_808-jvmRun1 surefire9669313894093514021tmp surefire_014581448497924905018tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/bambadia/IdeaProjects/CucumberFramework/target/test-classes:/Users/bambadia/IdeaProjects/CucumberFramework/target/classes:/Users/bambadia/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/bambadia/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/bambadia/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-java/7.4.0/cucumber-java-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-core/7.4.0/cucumber-core-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-gherkin/7.4.0/cucumber-gherkin-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.4.0/cucumber-gherkin-messages-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/bambadia/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/bambadia/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/bambadia/.m2/repository/io/cucumber/datatable/7.4.0/datatable-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-plugin/7.4.0/cucumber-plugin-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/docstring/7.4.0/docstring-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/bambadia/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/bambadia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-testng/7.4.0/cucumber-testng-7.4.0.jar:/Users/bambadia/.m2/repository/io/cucumber/cucumber-picocontainer/7.4.0/cucumber-picocontainer-7.4.0.jar:/Users/bambadia/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bambadia"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bambadia/IdeaProjects/CucumberFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/bambadia/IdeaProjects/CucumberFramework/target/surefire/surefirebooter13023253781546868306.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.15+8-LTS-149"/>
+    <property name="user.name" value="bambadia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/bambadia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/p3/l3f98st10fgbf5ybyj1m4hjr0000gn/T/"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="/Users/bambadia/IdeaProjects/CucumberFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/bambadia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.15+8-LTS-149"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="runScenario[&quot;add a discount coupon&quot;, &quot;Add a coupon&quot;](3)" classname="com.bdia.runners.TestNGRunnerTest" time="0.431">
+    <system-out><![CDATA[
+@addToCart @PL
+Scenario Outline: Add one product         &amp#27;[90m# src/test/java/com/bdia/feature/AddToCart.feature:15&amp#27;[0m
+
+@coupons
+Scenario: add a discount coupon                 &amp#27;[90m# src/test/java/com/bdia/feature/Coupons.feature:7&amp#27;[0m
+
+@addToCart @LU
+Scenario Outline: Add one product        &amp#27;[90m# src/test/java/com/bdia/feature/AddToCart.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI'm on coupons list page&amp#27;[0m                &amp#27;[90m# com.bdia.stepdefs.CouponsTest.iMOnCouponsListPage(java.util.List<com.bdia.objects.Customer>)&amp#27;[0m
+    | username                    | password |
+    | nathan@neville.com          | Test1111 |
+    | uncomptepourbre@yopmail.com | Test     |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have a product in the cart&amp#27;[0m              &amp#27;[90m# com.bdia.stepdefs.CouponsTest.iHaveAProductInTheCart()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add a discount coupon&amp#27;[0m                  &amp#27;[90m# com.bdia.stepdefs.CouponsTest.iAddADiscountCoupon()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI'm on store page&amp#27;[0m                &amp#27;[90m# com.bdia.stepdefs.AddToCartTest.iMOnStorePage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add one &amp#27;[0m&amp#27;[32m&amp#27;[1m"Red Shoes"&amp#27;[0m&amp#27;[32m to cart&amp#27;[0m     &amp#27;[90m# com.bdia.stepdefs.AddToCartTest.iAddOneProductToCart(com.bdia.objects.Product)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see one &amp#27;[0m&amp#27;[32m&amp#27;[1m"Red Shoes"&amp#27;[0m&amp#27;[32m in the cart&amp#27;[0m &amp#27;[90m# com.bdia.stepdefs.AddToCartTest.iSeeOneProductInTheCart(com.bdia.objects.Product)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see the discount reduction in the cart&amp#27;[0m &amp#27;[90m# com.bdia.stepdefs.CouponsTest.iSeeTheDiscounReductionInTheCart()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI'm on store page&amp#27;[0m                 &amp#27;[90m# com.bdia.stepdefs.AddToCartTest.iMOnStorePage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add one &amp#27;[0m&amp#27;[32m&amp#27;[1m"Blue Shoes"&amp#27;[0m&amp#27;[32m to cart&amp#27;[0m     &amp#27;[90m# com.bdia.stepdefs.AddToCartTest.iAddOneProductToCart(com.bdia.objects.Product)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see one &amp#27;[0m&amp#27;[32m&amp#27;[1m"Blue Shoes"&amp#27;[0m&amp#27;[32m in the cart&amp#27;[0m &amp#27;[90m# com.bdia.stepdefs.AddToCartTest.iSeeOneProductInTheCart(com.bdia.objects.Product)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Add one product&quot;, &quot;Add To cart&quot;](3)" classname="com.bdia.runners.TestNGRunnerTest" time="0.434"/>
+  <testcase name="runScenario[&quot;Add one product&quot;, &quot;Add To cart&quot;](3)" classname="com.bdia.runners.TestNGRunnerTest" time="0.434"/>
+</testsuite>
