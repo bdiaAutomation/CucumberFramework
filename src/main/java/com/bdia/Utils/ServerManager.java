@@ -14,6 +14,7 @@ public class ServerManager {
 
     public static AppiumDriverLocalService getServer() throws IOException {
         GlobalParamsManager params = new GlobalParamsManager();
+        params.initializeGlobalParameters();
         Properties props = new PropertiesManager().getProps();
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder().withLogFile(new File(
                 "ServerLogs" + File.separator + params.getDeviceName() + File.separator + "server.log"))
